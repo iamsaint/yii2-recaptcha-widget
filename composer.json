@@ -1,0 +1,31 @@
+{
+    "name": "iamsaint/yii2-recaptcha-widget",
+    "description": "Yii2 Google reCAPTCHA widget",
+    "version": "1.0.0",
+    "keywords": ["yii2", "captcha", "recaptcha", "google", "widget"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/iamsaint/yii2-recaptcha-widget",
+        "issues": "https://github.com/iamsaint/yii2-recaptcha-widget/issues"
+    },
+    "authors": [
+        {
+            "name": "Saint",
+            "homepage": "https://github.com/iamsaint/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=3.7",
+        "phpunit/dbunit": ">=1.2",
+        "phpunit/phpunit-selenium": ">=1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "iamsaint\\yii2\\recaptcha\\": ""
+        }
+    }
+}
